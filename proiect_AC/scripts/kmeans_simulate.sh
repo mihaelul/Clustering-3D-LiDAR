@@ -3,10 +3,10 @@ PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$PROJECT_ROOT" || exit 1
 
 echo "[INFO] Cleaning old simulation..."
-rm -f sim clusters_out.txt
+rm -f sim2 clusters_out.txt
 
 echo "[INFO] Compiling Verilog (K-means)..."
-iverilog -o sim \
+iverilog -o sim2 \
   rtl_kmeans/kmeans_top.v \
   rtl_kmeans/kmeans_fsm.v \
   rtl_kmeans/kmeans_point_memory.v \
@@ -14,7 +14,7 @@ iverilog -o sim \
   tb/kmeans_top_tb.v || exit 1
 
 echo "[INFO] Running K-means simulation..."
-vvp sim
+vvp sim2
 
 echo "[INFO] Plotting clusters..."
 python3 kmeans_plot_clusters.py
