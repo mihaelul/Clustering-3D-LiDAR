@@ -146,9 +146,9 @@ This script runs all clustering algorithms and generates the corresponding resul
 ---
 
 ## Results
-<img width="898" height="813" alt="euclidian" src="https://github.com/user-attachments/assets/24cc28e6-179d-4001-a172-6c63a10a55a4" />
-<img width="1043" height="814" alt="kmeans" src="https://github.com/user-attachments/assets/41ce8127-ee88-4aaa-8dbb-965decf4c742" />
-<img width="1032" height="805" alt="dbscan" src="https://github.com/user-attachments/assets/4919bbb9-81fc-4a8a-bdda-a758ef7e89e5" />
+<img width="600" alt="euclidian" src="https://github.com/user-attachments/assets/24cc28e6-179d-4001-a172-6c63a10a55a4" />
+<img width="600" alt="kmeans" src="https://github.com/user-attachments/assets/41ce8127-ee88-4aaa-8dbb-965decf4c742" />
+<img width="600" alt="dbscan" src="https://github.com/user-attachments/assets/4919bbb9-81fc-4a8a-bdda-a758ef7e89e5" />
 
 ---
 
@@ -173,8 +173,3 @@ The choice of clustering algorithm strongly depends on the **data characteristic
 
 ---
 
-* Lupulescu Maria-Alexandra
-* Negoită Mihaela
-* Popa Alexia-Elena
-
-Group: **332AB**
